@@ -121,6 +121,8 @@ class TransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIView
                 transitionImageView.frame = imageFrame
                 
                 fromViewController!.view.alpha = 0
+                
+                
                 }, completion: { (Bool) -> Void in
                     transitionImageView.removeFromSuperview()
                     fromViewController!.view.removeFromSuperview()

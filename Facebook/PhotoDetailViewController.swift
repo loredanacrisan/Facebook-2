@@ -64,8 +64,8 @@ class PhotoDetailViewController: UIViewController, UIScrollViewDelegate {
        
 
         self.view.backgroundColor = UIColor(white: 0, alpha: scrollAlpha)
-        doneImageView.alpha = scrollAlpha * 2
-        photoActionImageView.alpha = scrollAlpha * 2
+        doneImageView.alpha = scrollAlpha
+        photoActionImageView.alpha = scrollAlpha
         
         
     }
